@@ -3,6 +3,8 @@ import bannerImg from '../../assets/banner.png';
 import { FaSearch } from 'react-icons/fa';
 import { ThemeContext } from '../../context/ThemeContext';
 import { BsMoon, BsSun } from 'react-icons/bs';
+import BasicToolTip from '../../components/BasicToolTip';
+import TooltipButton from '../../components/TooltipButton';
 
 const Hero = () => {
     const { isDarkMode, toggleTheme } = useContext(ThemeContext);
@@ -28,6 +30,18 @@ const Hero = () => {
 
             {/* Overlay with small bottom blur effect */}
             <div className="absolute inset-x-0 -mb-2 bottom-0 h-3/4 bg-gradient-to-t from-white via-transparent to-transparent blur-sm"></div>
+
+            {/* hover button for displaying box  */}
+            {/* <BasicToolTip/> */}
+            <div className='hidden xl:block absolute bottom-40 left-24'>
+                <TooltipButton position="bottom" />
+            </div>
+            <div className='hidden xl:block absolute bottom-52 left-96'>
+                <TooltipButton position="bottom" />
+            </div>
+            <div className='hidden xl:block absolute bottom-24 right-[820px]'>
+                <TooltipButton position="bottom" />
+            </div>
 
             {/* dark and light mode */}
             <div className="absolute bottom-16 right-16 z-40">
