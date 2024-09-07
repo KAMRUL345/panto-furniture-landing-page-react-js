@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TooltipButton = ({ position = 'bottom', colors = ['red-500', 'green-500', 'blue-500'] }) => {
+const TooltipButton = ({ position = 'bottom', colors = ['bg-red-700', 'bg-green-700', 'bg-blue-700'] }) => {
   // Map position prop to different classes for positioning the tooltip and arrow
   const positionClasses = {
     bottom: {
@@ -30,7 +30,7 @@ const TooltipButton = ({ position = 'bottom', colors = ['red-500', 'green-500', 
         >
           {/* Colored dots */}
           {colors.map((color, index) => (
-            <div key={index} className={`size-6 bg-${color} border border-white rounded-full`}></div>
+            <div key={index} className={`size-6 ${color} border border-white rounded-full`}></div>
           ))}
           {/* Tooltip arrow */}
           <div
