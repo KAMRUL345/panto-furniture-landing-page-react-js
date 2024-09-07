@@ -5,7 +5,7 @@ export const products = [
     name: "Comfortable Chair",
     category: "Chair",
     price: 99,
-    imageUrl: "/assets/chair1.jpg",
+    imageUrl: "chair-1.png",
     rating: 5,
   },
   {
@@ -13,7 +13,7 @@ export const products = [
     name: "Ergonomic Chair",
     category: "Chair",
     price: 129,
-    imageUrl: "/assets/chair2.jpg",
+    imageUrl: "chair-2.png",
     rating: 4,
   },
   {
@@ -21,7 +21,7 @@ export const products = [
     name: "Stylish Armchair",
     category: "Chair",
     price: 149,
-    imageUrl: "/assets/chair3.jpg",
+    imageUrl: "chair-3.png",
     rating: 3,
   },
   {
@@ -29,7 +29,7 @@ export const products = [
     name: "Leather Recliner",
     category: "Chair",
     price: 199,
-    imageUrl: "/assets/chair4.jpg",
+    imageUrl: "chair-4.png",
     rating: 4,
   },
   {
@@ -37,7 +37,7 @@ export const products = [
     name: "Minimalist Chair",
     category: "Chair",
     price: 89,
-    imageUrl: "/assets/chair5.jpg",
+    imageUrl: "chair-5.png",
     rating: 4.5,
   },
 
@@ -47,7 +47,7 @@ export const products = [
     name: "King Size Bed",
     category: "Beds",
     price: 299,
-    imageUrl: "/assets/bed1.jpg",
+    imageUrl: "beds-1.png",
     rating: 5,
   },
   {
@@ -55,7 +55,7 @@ export const products = [
     name: "Queen Size Bed",
     category: "Beds",
     price: 249,
-    imageUrl: "/assets/bed2.jpg",
+    imageUrl: "beds-2.png",
     rating: 5,
   },
   {
@@ -63,7 +63,7 @@ export const products = [
     name: "Modern Bed Frame",
     category: "Beds",
     price: 399,
-    imageUrl: "/assets/bed3.jpg",
+    imageUrl: "beds-3.png",
     rating: 3,
   },
   {
@@ -71,7 +71,7 @@ export const products = [
     name: "Platform Bed",
     category: "Beds",
     price: 349,
-    imageUrl: "/assets/bed4.jpg",
+    imageUrl: "beds-4.png",
     rating: 2,
   },
   {
@@ -79,7 +79,7 @@ export const products = [
     name: "Sleigh Bed",
     category: "Beds",
     price: 459,
-    imageUrl: "/assets/bed5.jpg",
+    imageUrl: "beds-5.png",
     rating: 5,
   },
 
@@ -89,7 +89,7 @@ export const products = [
     name: "Luxury Sofa",
     category: "Sofa",
     price: 499,
-    imageUrl: "/assets/sofa1.jpg",
+    imageUrl: "sofa-1.png",
     rating: 4,
   },
   {
@@ -97,7 +97,7 @@ export const products = [
     name: "Compact Sofa",
     category: "Sofa",
     price: 399,
-    imageUrl: "/assets/sofa2.jpg",
+    imageUrl: "sofa-2.png",
     rating: 5,
   },
   {
@@ -105,7 +105,7 @@ export const products = [
     name: "L-shaped Sofa",
     category: "Sofa",
     price: 699,
-    imageUrl: "/assets/sofa3.jpg",
+    imageUrl: "sofa-3.png",
     rating: 4,
   },
   {
@@ -113,7 +113,7 @@ export const products = [
     name: "Sofa with Chaise",
     category: "Sofa",
     price: 549,
-    imageUrl: "/assets/sofa4.jpg",
+    imageUrl: "sofa-4.png",
     rating: 5,
   },
   {
@@ -121,7 +121,7 @@ export const products = [
     name: "Sectional Sofa",
     category: "Sofa",
     price: 799,
-    imageUrl: "/assets/sofa5.jpg",
+    imageUrl: "sofa-5.png",
     rating: 3.6,
   },
 
@@ -131,7 +131,7 @@ export const products = [
     name: "Modern Lamp",
     category: "Lamp",
     price: 49,
-    imageUrl: "/assets/lamp1.jpg",
+    imageUrl: "lamp-1.png",
     rating: 5,
   },
   {
@@ -139,7 +139,7 @@ export const products = [
     name: "Classic Lamp",
     category: "Lamp",
     price: 59,
-    imageUrl: "/assets/lamp2.jpg",
+    imageUrl: "lamp-2.png",
     rating: 4,
   },
   {
@@ -147,7 +147,7 @@ export const products = [
     name: "Wooden Table Lamp",
     category: "Lamp",
     price: 69,
-    imageUrl: "/assets/lamp3.jpg",
+    imageUrl: "lamp-3.png",
     rating: 3,
   },
   {
@@ -155,7 +155,7 @@ export const products = [
     name: "Industrial Floor Lamp",
     category: "Lamp",
     price: 89,
-    imageUrl: "/assets/lamp4.jpg",
+    imageUrl: "lamp-4.png",
     rating: 5,
   },
   {
@@ -163,7 +163,7 @@ export const products = [
     name: "Vintage Desk Lamp",
     category: "Lamp",
     price: 79,
-    imageUrl: "/assets/lamp5.jpg",
+    imageUrl: "lamp-6.png",
     rating: 4,
   },
 ];

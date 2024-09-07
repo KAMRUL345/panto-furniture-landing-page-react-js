@@ -1,8 +1,9 @@
 import React, { useContext } from 'react'
 import { FiPlus } from "react-icons/fi";
-import productImg from "../../assets/chair-1.png"
+import productImg from "../../assets/products/lamp-1.png"
 import Rating from '../../components/Rating'
 import { CartContext } from '../../context/CartContext';
+import { getImgUrl } from '../../utils/getImgUrl';
 
 const ProductCard = ({ product }) => {
     const { addToCart } = useContext(CartContext);
@@ -10,7 +11,7 @@ const ProductCard = ({ product }) => {
         <div key={product.id} className="">
             <div className='bg-[#FAFAFA]'>
                 <img
-                    src={productImg}
+                    src={getImgUrl(`${product.imageUrl}`)}
                     alt={product.name}
                     className="w-full h-full object-cover px-8 py-2 rounded"
                 />
