@@ -9,6 +9,7 @@ const navItems = [
     { path: '/shop', label: 'Shop' },
     { path: '/about', label: 'About Us' },
     { path: '/contact', label: 'Contact' },
+    { path: '/kamrul', label: 'Kamrul' },
 ];
 
 // Reusable NavItems component with map function
